@@ -1,0 +1,32 @@
+{
+  "name": "vestdrop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "ethers": "^6.16.0",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "@zama-fhe/relayer-sdk": "^0.4.1",
+    "@tokenops/sdk": "^1.1.1",
+    "viem": "^2.47.0"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  },
+  "description": "TokenOps confidential distribution cockpit for private airdrops, disperse payments, and vesting on Zama",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamalbuilds/vestdrop.git"
+  }
+}
